@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Demo Website</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="comtainer">
+    <h1 class="heading-1">Bootstrap Example</h1>
+    <div
+      id="carouselExampleCaptions" class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./image6.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="paragraph">
+      <h2 id="heading-2">Some Content</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio veritatis
+        similique consectetur minima? Eaque itaque, veritatis necessitatibus, ut
+        repellendus ea eum natus dolores et iure dolore sit, modi praesentium
+        repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et
+        ratione illo eum amet corporis saepe dolorem quos necessitatibus
+        inventore consequuntur, laudantium, reiciendis nemo quis. Hic tempore
+        ullam nobis ex? Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Quaerat, deserunt voluptates neque tenetur quod impedit laborum
+        blanditiis eligendi culpa nemo magni quam repudiandae vero explicabo
+        autem architecto fuga eos accusantium.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda optio
+        explicabo deleniti temporibus corrupti obcaecati officia at nihil!
+        Aliquid eveniet officia repudiandae dicta repellendus, doloribus ea
+        deserunt voluptatibus ducimus veritatis. Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Quis delectus neque ipsam voluptates
+        maxime, ea aut eos non quidem deleniti fuga nobis! Nostrum est ullam,
+        natus repudiandae nesciunt vel minima.
+      </p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="./image4.jpg" class="card-img-top ele1" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+              animi tempora obcaecati tempore pariatur natus aspernatur amet
+              veniam voluptatum qui? Repellendus asperiores laborum veritatis
+              ratione unde deleniti vel sed porro!
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./image5.jpg" class="card-img-top ele1" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Explicabo quis dolorum deserunt placeat, iusto vitae alias
+              quisquam perspiciatis. Dignissimos tempore minus atque quas?
+              Laboriosam, laudantium. Iste consequatur facilis culpa commodi.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./image1.jpg" class="card-img-top ele1" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              ipsum delectus facere natus corrupti sunt libero laudantium,
+              quidem sequi cumque consequatur expedita obcaecati repellat
+              dolores rerum earum dolor, consectetur vitae.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form>
+      <h2 class="ele2">Form</h2>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input
+          type="name"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1"
+          rows="3">Enter your message</textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <h2 class="ele">Table</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Message</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>John Smith</td>
+          <td>john@example.com</td>
+          <td>
+            Blanditiis doloremque praesentium nihil sapiente cumqusci explicabo.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jane Doe</td>
+          <td>jane@example.com</td>
+          <td>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Bob Johnson</td>
+          <td>bob@gmail.com</td>
+          <td>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
